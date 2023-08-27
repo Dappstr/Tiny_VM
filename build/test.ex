@@ -4,4 +4,5 @@ add
 pop
 push #5
 add
+sub #4
 hlt
