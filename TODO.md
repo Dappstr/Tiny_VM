@@ -2,7 +2,7 @@ TODO:
 
 [X] Grab file contents
 
-[] Lex
+[X] Lex
     
 [] Tokenize
     

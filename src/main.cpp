@@ -1,7 +1,9 @@
 #include <cstdlib>
 #include <cstring>
 #include <iostream>
+#include <vector>
 #include "../include/fileutil.hpp"
+#include "../include/lexer.hpp"
 
 int main(int argc, char* argv[]) {
     
@@ -14,10 +16,11 @@ int main(int argc, char* argv[]) {
     char* path = argv[1];
     std::string contents = get_file_contents(path);
 
-    std::cout << contents;
     //lex
+    std::vector<std::string> lexemes = lex(contents);
     
     //tokenize
+    
 
     //parse
 
