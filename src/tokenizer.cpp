@@ -24,6 +24,12 @@ std::vector<Token> tokenize(const std::vector<std::string> &lexemes) {
         else if(lexemes.at(i) == "pop") {
             tokens.push_back({Type::INST, Inst_type::POP});
         }
+        else if(lexemes.at(i) == "print") {
+            tokens.push_back({Type::INST, Inst_type::PRINT});
+        }
+        else if(lexemes.at(i) == "hlt") {
+            tokens.push_back({Type::INST, Inst_type::HLT});
+        }
         else if(lexemes.at(i) == "#") {
             if(i + 1 < lexemes.size()) {
                 try {

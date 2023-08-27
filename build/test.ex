@@ -1,8 +1,13 @@
 push #20
 push #12
-add
+
 pop
-push #5
-add
-sub #4
+
+print
+
+push #10
+push #20
+
+print
+
 hlt

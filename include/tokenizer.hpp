@@ -15,6 +15,7 @@ enum Inst_type {
     MUL,
     PUSH,
     POP,
+    PRINT,
     HLT
 };
 
