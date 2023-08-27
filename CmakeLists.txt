@@ -14,7 +14,13 @@ set(CMAKE_CXX_COMPILER "g++")
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 # specify where the source files are
-file(GLOB SOURCES "src/*.cpp")
+set(SOURCES
+    src/main.cpp
+    src/fileutil.cpp
+    src/lexer.cpp
+    src/tokenizer.cpp
+    src/parser.cpp
+)
 
 # add the executable
 add_executable(tiny ${SOURCES})

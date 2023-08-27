@@ -1,6 +1,6 @@
 TODO:
 
-[] Grab file contents
+[X] Grab file contents
 
 [] Lex
     
