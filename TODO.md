@@ -1,7 +1,7 @@
 TODO:
-    [] Lex
+[] Lex
     
-    [] Tokenize
+[] Tokenize
     
-    [] Parse
+[] Parse
 
